@@ -28,7 +28,7 @@ PageMetrics _getTestPageMetrics(BuildContext context) {
     pixels: 5,
     viewportDimension: 10,
     viewportFraction: 1.0,
-    devicePixelRatio: View.of(context).devicePixelRatio,
+     devicePixelRatio: MediaQuery.of(context).devicePixelRatio,
   );
 }
 
