@@ -20,7 +20,7 @@ final ExtendedPageController _defaultPageController = ExtendedPageController();
 const PageScrollPhysics _kPagePhysics = PageScrollPhysics();
 const ScrollPhysics _defaultScrollPhysics = NeverScrollableScrollPhysics();
 
-PageMetrics _getTestPageMetrics(BuildContext context) {
+PageMetrics _getTestPageMetrics(BuildContext? context) {
   return PageMetrics(
     axisDirection: AxisDirection.down,
     minScrollExtent: 0,
